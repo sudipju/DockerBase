@@ -18,6 +18,8 @@ FROM centos:7
 # Package maintainer
 MAINTAINER SUDIP
 
+RUN yum update -y
+RUN yum install -y wget curl nano
 
 #
 # Set DOCKER Environment Variables

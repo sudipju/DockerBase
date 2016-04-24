@@ -2,7 +2,7 @@
     image: centos:7
     command: sleep 30
   application:
-    image: centos:7
+    image: jdkimg
     command: sleep 30
   database:
     image: neo4j
